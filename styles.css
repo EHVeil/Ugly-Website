@@ -19,8 +19,18 @@
 
 .green-back {
   background: #0080008c;
+  animation-name: rainbow;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
 }
 
 .pink-back {
   background: #fe28ff8c;
+}
+
+@keyframes rainbow {
+  0%   {background-color: #d40d4280;}
+  25%  {background-color: #9c0dd480;}
+  50%  {background-color: #0d11d480;}
+  100% {background-color: #0dd41580;}
 }
