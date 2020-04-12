@@ -7,12 +7,20 @@
   color: pink;
 }
 
-.title {
+.index-body {
+  background-image: url("images/head-buscemi.jpg");
+  background-repeat: repeat;
+  background-size: auto;
+}
+
+.grandma{
+  width: 800px;
+}
+
+.green-back {
   background: #0080008c;
 }
 
-.index-body {
-  background-image: url(images/head-buscemi.jpg);
-  background-repeat: repeat;
-  background-size: auto;
+.pink-back {
+  background: #fe28ff8c;
 }
